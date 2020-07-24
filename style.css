@@ -1,0 +1,29 @@
+body{
+  padding: 2px;
+}
+button{
+  min-width: 74px;
+}
+#grid{
+  min-width: 4rem ;
+  min-height: 4rem;
+}
+@media all and (max-width: 375px){
+  #grid{
+    width: 4rem ;
+    height: 4rem;
+    min-width: 4rem;
+  }
+}
+@media all and (min-width: 375px) and (max-width: 500px) {
+  #grid{
+    width: 6rem ;
+    height: 6rem;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 800px) {
+  #grid{
+    width: 8rem ;
+    height: 8rem;
+  }
+}
